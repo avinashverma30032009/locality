@@ -1,0 +1,36 @@
+git --version
+git config --global user.name <username> 
+git config --global user.email <email>
+git config --list
+git clone <link> to copy remote file to local machine most preferred https
+cd <filename> change directory
+clear to clear 
+ls list file
+ls -a for hidden files works on git bash(powershell -> git bash)
+ls -Force for hidden files in powershell
+git status -> to check while repo clone is (untracked, modified/staged/unmodified)
+git add <filename> -> to make repo staged and ready to commit
+git add . -> do this to make all new changes ready to commit
+git commit -m "<message>" -> to commit changes with msg
+git push origin main ->(git push is push command while origin is default name of clone of repo main is the branch)
+git remote rename origin <name> ->to change name of clone repo origin to <name>
+git remote add <second repo> <url> ->to add another repo in same folder
+git checkout dev ->change branch
+cd .. -> to come out from repo
+mkdir <name> -> make new directory (folder)
+git init -> to initialize directory for git(creates a .git file)
+git remote -v ->verify repo remote url
+git branch -> to check branch
+git branch -m <name> -> to change the branch name
+git push -u origin main -> to use long time of push without typing origin main(only type git push)
+git checkout -b <new branch name> -> to create new branch
+git branch -d <branch name>-> to delete branch
+git diff <branch name> -> check differences btw branch and current branch
+git merge <branch name> ->to merge with branch with current branch
+git pull origin main -> to update local clone of repo branch
+git reset <filename> -> undo just before add .
+git reset HEAD~1 -> undo before commit to just before add .
+git log -> check all previos commits
+
+git reset <-commit hash-> -> specific hash for specific commit
+git reset --hard <commit hash> ->to undo in editor also
